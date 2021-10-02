@@ -1,0 +1,134 @@
+body {
+    background: rgba(138, 138, 138, .3);
+}
+
+.container_imc {
+    position: relative;
+    background: rgba(255, 73, 0, .8);
+    border-radius: 0 20px;
+    height: 100%;
+    border: 2px solid grey;
+    width: 320px;
+    margin: auto;
+    padding: 12px;
+    top: 10vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+}
+
+.container_imc h1 {
+    color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+}
+
+.container_imc .dados {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.container_imc .dados .kg {
+    position: relative;
+    float: right;
+    margin: -38px 28px 0 0;
+    color: #808080;
+    font: normal 16pt Arial;
+}
+
+.container_imc .dados .cm {
+    position: relative;
+    float: right;
+    margin: -38px 28px 0 0;
+    color: #808080;
+    font: normal 16pt Arial;
+}
+
+.container_imc .dados .text_imc {
+    position: relative;
+    float: right;
+    margin: -36px 28px 0 0;
+    color: #808080;
+    font: normal 14pt Arial;
+}
+
+.container_imc .dados input {
+    margin-top: 25px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    padding: 10px;
+    width: 80%;
+    margin-left: 6%;
+    cursor: pointer;
+    font: normal 16pt Arial;
+}
+
+.container_imc .dados input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.container_imc .dados input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.container_imc .dados input#indice {
+    background: rgba(257, 257, 257, .9);
+    color: #000;
+}
+
+.container_imc p {
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.container_imc .calcular {
+    background: green;
+    position: relative;
+    margin-left: 36%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 16px;
+    transition: filter .2s;
+}
+
+.container_imc .calcular:hover {
+    background: rgb(0, 126, 2);
+    filter: brightness(1.2);
+}
+
+@media screen and (min-width: 501px) {
+    .container_imc {
+        width: 50%;
+        height: 100%;
+        top: 20vh;
+    }
+
+    .container_imc .dados input {
+        width: 80%;
+        margin-left: 8%;
+    }
+
+    .container_imc .dados .kg {
+        margin: -38px 0 0 0;
+        margin-right: 10%;
+    }
+
+    .container_imc .dados .cm {
+        margin: -38px 0 0 0;
+        margin-right: 10%;
+    }
+
+    .container_imc .dados .text_imc {
+        margin: -36px 0 0 0;
+        margin-right: 10%;
+    }
+
+    .container_imc .calcular {
+        margin-left: 45%;
+    }
+}
