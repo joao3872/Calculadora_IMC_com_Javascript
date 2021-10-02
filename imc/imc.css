@@ -5,12 +5,12 @@ body {
 .container_imc {
     position: relative;
     background: rgba(255, 73, 0, .8);
-    border-radius: 0 20px;
+    border-radius: 0 1.25rem;
     height: 100%;
-    border: 2px solid grey;
-    width: 320px;
+    border: .125rem solid grey;
+    width: 20rem;
     margin: auto;
-    padding: 12px;
+    padding: .75rem;
     top: 10vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
 }
@@ -23,14 +23,14 @@ body {
 
 .container_imc .dados {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     width: 100%;
 }
 
 .container_imc .dados .kg {
     position: relative;
     float: right;
-    margin: -38px 28px 0 0;
+    margin: -2.375rem 1.75rem 0 0;
     color: #808080;
     font: normal 16pt Arial;
 }
@@ -38,7 +38,7 @@ body {
 .container_imc .dados .cm {
     position: relative;
     float: right;
-    margin: -38px 28px 0 0;
+    margin: -2.375rem 1.75rem 0 0;
     color: #808080;
     font: normal 16pt Arial;
 }
@@ -46,16 +46,16 @@ body {
 .container_imc .dados .text_imc {
     position: relative;
     float: right;
-    margin: -36px 28px 0 0;
+    margin: -2.25rem 1.75rem 0 0;
     color: #808080;
     font: normal 14pt Arial;
 }
 
 .container_imc .dados input {
-    margin-top: 25px;
-    border-radius: 8px;
-    border: 2px solid grey;
-    padding: 10px;
+    margin-top: 1.5625rem;
+    border-radius: .5rem;
+    border: .125rem solid grey;
+    padding: .625rem;
     width: 80%;
     margin-left: 6%;
     cursor: pointer;
@@ -79,8 +79,8 @@ body {
 .container_imc p {
     color: #f1f1f1;
     text-align: center;
-    margin-bottom: 30px;
-    font-size: 20px;
+    margin-bottom: 1.875rem;
+    font-size: 1.25rem;
     font-family: Arial;
 }
 
@@ -88,11 +88,11 @@ body {
     background: green;
     position: relative;
     margin-left: 36%;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    padding: 10px;
+    margin-bottom: .9375rem;
+    border-radius: .5rem;
+    padding: .625rem;
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     transition: filter .2s;
 }
 
