@@ -14,4 +14,4 @@
 
 ### Versão Desktop:
 
-<img src="imc/video/versao_desktop.gif" height="500px" width="100%" />
+<img src="imc/video/versao_desktop.gif" width="100%" />
