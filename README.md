@@ -10,7 +10,7 @@
 
 ### Versão Mobile:
 
-<img >
+<img src="imc/video/versao_mobile.gif" />
 
 ### Versão Desktop:
 
