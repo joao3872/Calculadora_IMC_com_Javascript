@@ -9,5 +9,5 @@
 * E mostra a classificação do usuário, de acordo, com o resultado do Cálculo IMC.
 
 <video controls>
-    <source src="video/versao_desktop" type="video/avi">
+    <source src="video/versao_desktop.avi" type="video/avi">
 </video>
