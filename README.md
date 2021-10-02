@@ -10,7 +10,7 @@
 
 ### Versão Mobile:
 
-<img src="imc/imagens/versao_mobile.gif" height="500px" width="300px" />
+<img src="imc/imagens/versao_mobile.gif" height="500px" width="260px" />
 
 ### Versão Desktop:
 
