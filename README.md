@@ -8,4 +8,4 @@
 * Mostra exatamente o IMC do Usuário, dentro do input Resultado.
 * E mostra a classificação do usuário, de acordo, com o resultado do Cálculo IMC.
 
-<img src="video/versao_desktop.gif">
+<img src="imc/video/versao_desktop.gif">
