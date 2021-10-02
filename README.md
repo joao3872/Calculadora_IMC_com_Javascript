@@ -10,8 +10,8 @@
 
 ### Versão Mobile:
 
-<img src="imc/video/versao_mobile.gif" width="100%" /> 
+<img src="imc/imagens/versao_mobile.gif" width="100%" />
 
 ### Versão Desktop:
 
-<img src="imc/video/versao_desktop.gif" width="100%" />
+<img src="imc/imagens/versao_desktop.gif" width="100%" />
