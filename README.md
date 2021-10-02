@@ -7,3 +7,7 @@
 * Se o usuário não preencher o Peso ou a Altura, irá aparecer uma mensagem, pedindo para digitar ambas.
 * Mostra exatamente o IMC do Usuário, dentro do input Resultado.
 * E mostra a classificação do usuário, de acordo, com o resultado do Cálculo IMC.
+
+<video controls>
+    <source src="video/versao_desktop" type="video/avi">
+</video>
