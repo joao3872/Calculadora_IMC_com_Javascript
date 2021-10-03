@@ -108,6 +108,10 @@ body {
         top: 20vh;
     }
 
+    .container_imc .dados {
+        margin-bottom: 1.875rem;
+    }
+
     .container_imc .dados input {
         width: 80%;
         margin-left: 8%;
@@ -126,6 +130,10 @@ body {
     .container_imc .dados .text_imc {
         margin: -2.25rem 0 0 0;
         margin-right: 10%;
+    }
+
+    .container_imc p {
+        margin-bottom: 1.875rem;
     }
 
     .container_imc .calcular {
