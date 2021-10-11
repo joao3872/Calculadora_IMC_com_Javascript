@@ -14,10 +14,20 @@
         <h1>Cálculo de IMC</h1>
 
         <div class="dados">
-            <input type="number" placeholder="Peso" id="num1" />
+            <input 
+              type="number" 
+              placeholder="Peso" 
+              id="num1" 
+              onkeypress="if(this.value.length > 3 && this.value == parseInt(this.value)) return false"
+            />
             <p class="kg">Kg</p>
 
-            <input type="number" placeholder="Altura" id="num2" />
+            <input 
+              type="number" 
+              placeholder="Altura" 
+              id="num2" 
+              onkeypress="if(this.value.length == 3 && this.value == parseInt(this.value)) return false"
+            />
             <p class="cm">cm</p>
 
             <input type="number" placeholder="Resultado" id="indice" disabled />
@@ -25,10 +35,12 @@
         </div>
 
         <p id="classificacao"></p>
-
-        <button class="calcular" onclick="calculo()">
-            <strong>Calcular</strong>
-        </button>
+        
+        <div class="container_button">
+            <button class="calcular" onclick="calculo()">
+                <strong>Calcular</strong>
+            </button>
+        </div>
     </section>
 
 </body>
