@@ -14,10 +14,24 @@ function calculo() {
     if (altura2 === parseInt(altura2)) {
         var altura = altura2 / 100
     } else {
-        var altura = altura2 * 1
+        var altura = altura2
+        altura = Math.floor(altura * 100) / 100
+        // multiplica a altura por 100, e depois dividi para o resultado ser um número flutuante.
+        // E possui o uso do método Math.floor na fórmula, para arredondar para baixo, assim o número digitado, será mantido.
+        altura = valor2.value = `${altura.toFixed(2)}`
+        /* pegando o valor do input da altura, basta adicionar o toFixed(2), assim, as casas decimais que vem depois
+        da segunda casa, serão ignorados, já que foi feito o uso do Math.floor... */
     }
 
-
+    if(peso2 === parseInt(peso2)) {
+        var peso = peso2
+    } else {
+        var peso = peso2
+        peso = Math.floor(peso * 100) / 100
+        peso = valor1.value = `${peso}`
+    }
+    
+    
     // fórmula imc.
     const imc = peso / (altura * altura)
     // joga o resultado de imc com uma casa decimal, dentro do valor do input...
