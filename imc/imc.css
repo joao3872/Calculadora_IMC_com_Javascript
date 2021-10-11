@@ -30,9 +30,11 @@ body {
 .container_imc .dados .kg {
     position: relative;
     float: right;
-    margin: -2.375rem 1.75rem 0 0;
+    margin: -2.5rem 1.75rem 0 0;
     color: #808080;
     font: normal 16pt Arial;
+    background: #fff;
+    padding: .125rem .125rem .125rem .875rem;
 }
 
 .container_imc .dados .cm {
@@ -41,6 +43,8 @@ body {
     margin: -2.375rem 1.75rem 0 0;
     color: #808080;
     font: normal 16pt Arial;
+    background: #fff;
+    padding: .125rem .125rem .125rem .5625rem;
 }
 
 .container_imc .dados .text_imc {
@@ -84,19 +88,26 @@ body {
     font-family: Arial;
 }
 
-.container_imc .calcular {
+.container_imc .container_button {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.container_imc .container_button .calcular {
     background: green;
     position: relative;
-    margin-left: 36%;
-    margin-bottom: .625rem;
+    margin-left: .375rem;
+    margin-bottom: .375rem;
     border-radius: .5rem;
     padding: .625rem;
     color: #FFF;
     font-size: 1rem;
     transition: filter .2s;
+    margin: auto;
 }
 
-.container_imc .calcular:hover {
+.container_imc .container_button .calcular:hover {
     background: rgb(0, 126, 2);
     filter: brightness(1.2);
 }
@@ -108,10 +119,6 @@ body {
         top: 20vh;
     }
 
-    .container_imc .dados {
-        margin-bottom: 1.875rem;
-    }
-
     .container_imc .dados input {
         width: 80%;
         margin-left: 8%;
@@ -119,24 +126,25 @@ body {
 
     .container_imc .dados .kg {
         margin: -2.375rem 0 0 0;
-        margin-right: 10%;
+        margin-right: 8.8%;
     }
 
     .container_imc .dados .cm {
         margin: -2.375rem 0 0 0;
-        margin-right: 10%;
+        margin-right: 8.8%;
     }
 
     .container_imc .dados .text_imc {
         margin: -2.25rem 0 0 0;
         margin-right: 10%;
     }
-
-    .container_imc p {
-        margin-bottom: 1.875rem;
+    
+    .container_imc .container_button {
+        margin: auto;
+        width: 100%;
     }
 
-    .container_imc .calcular {
-        margin-left: 45%;
+    .container_imc .container .calcular {
+        margin: auto;
     }
 }
