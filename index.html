@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-								<meta charset="UTF-8">
-								<meta http-equiv="X-UA-Compatible" content="IE=edge">
-								<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-								<title>Cálculo de IMC</title>
-								<link rel="stylesheet" href="imc.css">
-								<script src="imc.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="imc.css">
+    <script src="imc.js"></script>
 </head>
 <body>
-				<section class="container_imc">
-								<h1>Cálculo de IMC</h1>
-							 <div class="dados">
-												<input type="number" placeholder="Peso" id="num1" onkeypress="if(this.value.length > 3 && this.value == parseInt(this.value)) return false" />
-												<p class="kg">Kg</p>
+    <section class="container_imc">
+	<h1>Cálculo de IMC</h1>
+	<div class="dados">
+	<input type="number" placeholder="Peso" id="num1" onkeypress="if(this.value.length > 3 && this.value == parseInt(this.value)) return false" />
+	<p class="kg">Kg</p>
 								    				
-								 			<input type="number" placeholder="Altura" id="num2" onkeypress="if(this.value.length == 3 && this.value == parseInt(this.value)) return false" />
-								  		<p class="cm">cm</p>
+	<input type="number" placeholder="Altura" id="num2" onkeypress="if(this.value.length == 3 && this.value == parseInt(this.value)) return false" />
+	<p class="cm">cm</p>
 								    				
-								  		<input type="number" placeholder="Resultado" id="indice" disabled /> 
-								  		<p class="text_imc">IMC</p>
-							 </div>
+	<input type="number" placeholder="Resultado" id="indice" disabled /> 
+	<p class="text_imc">IMC</p>
+	</div>
 								    
-					   <p id="classificacao"></p>
+	<p id="classificacao"></p>
 								    
-							 <div class="container_button">
-						  				<button class="calcular" onclick="calculo()">
-								    				<strong>Calcular</strong>
-								   	</button>
-								</div>
+	<div class="container_button">
+	    <button class="calcular" onclick="calculo()">
+		<strong>Calcular</strong>
+	    </button>
+	</div>
+
     </section>
 </body>
 </html>
