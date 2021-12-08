@@ -17,3 +17,7 @@
 ### Versão Desktop:
 
 <img src="imc/imagens/versao_desktop.gif" />
+
+### Experimente você mesmo !
+
+* [Acesso a Calculadora](https://joao3872.github.io/Calculadora_IMC_com_Javascript/)
