@@ -116,11 +116,10 @@ body {
     .container_imc {
         background: red;
         top: 4vh;
-        bottom: 4vh;
     }
 
     body {
-        background: #333;
+        padding-bottom: 4vh;
     }
 }
 
