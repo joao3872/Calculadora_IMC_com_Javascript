@@ -114,6 +114,7 @@ body {
 
 @media screen and (orientation: landscape) {
     .container_imc {
+        background: red;
         top: 4vh;
         bottom: 4vh;
     }
