@@ -113,14 +113,14 @@ body {
 }
 
 .container_imc .container_button .nome {
-    margin-top: 45px;
+    margin-top: 85px;
     text-align: center;
 }
 
 @media screen and (orientation: landscape) {
     .container_imc {
         margin-top: 3vh;
-}
+    }
 }
 
 @media screen and (min-width: 801px) {
