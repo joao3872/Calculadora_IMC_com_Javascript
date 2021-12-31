@@ -113,8 +113,8 @@ body {
 }
 
 @media screen and (orientation: landscape) {
-    body {
-        padding: 50px;
+    .container_imc {
+        margin-top: 3vh;
 }
 }
 
