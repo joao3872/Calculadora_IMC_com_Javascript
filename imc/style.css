@@ -115,6 +115,7 @@ body {
 .container_imc .container_button .nome {
     margin-top: 85px;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (orientation: landscape) {
