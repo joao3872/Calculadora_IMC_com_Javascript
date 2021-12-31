@@ -112,6 +112,11 @@ body {
     filter: brightness(1.2);
 }
 
+.container_imc .container_button .nome {
+    margin-top: 45px;
+    text-align: center;
+}
+
 @media screen and (orientation: landscape) {
     .container_imc {
         margin-top: 3vh;
