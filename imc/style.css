@@ -112,7 +112,8 @@ body {
     filter: brightness(1.2);
 }
 
-.container_imc .container_button .nome {
+.nome {
+    position: absolute;
     margin-top: 85px;
     text-align: center;
     width: 100%;
