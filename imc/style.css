@@ -118,6 +118,10 @@ body {
         top: 4vh;
         bottom: 4vh;
     }
+
+    body {
+        background: #333;
+    }
 }
 
 @media screen and (min-width: 801px) {
