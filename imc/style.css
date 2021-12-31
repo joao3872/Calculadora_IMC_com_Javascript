@@ -113,9 +113,9 @@ body {
 }
 
 @media screen and (orientation: landscape) {
-    .container_imc {
-        margin-bottom: 4vh;
-    }
+    body {
+        padding: 50px;
+}
 }
 
 @media screen and (min-width: 801px) {
