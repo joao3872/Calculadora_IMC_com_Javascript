@@ -12,7 +12,6 @@ body {
     margin: auto;
     padding: .75rem;
     top: 8vh;
-    bottom: 6vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
 }
 
@@ -111,6 +110,13 @@ body {
 .container_imc .container_button .calcular:hover {
     background: rgb(0, 126, 2);
     filter: brightness(1.2);
+}
+
+@media screen and (orientation: landscape) {
+    .container_imc {
+        top: 4vh;
+        bottom: 4vh;
+    }
 }
 
 @media screen and (min-width: 801px) {
