@@ -113,15 +113,15 @@ body {
 }
 
 .nome {
-    position: absolute;
-    margin-top: 85px;
-    text-align: center;
     width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
 }
 
 @media screen and (orientation: landscape) {
     .container_imc {
-        margin-top: 3vh;
+	margin-top: 10px;
     }
 }
 
