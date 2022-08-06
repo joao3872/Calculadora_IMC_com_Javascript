@@ -12,7 +12,6 @@ body {
     margin: auto;
     padding: .75rem;
     top: 8vh;
-    bottom: 12vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
 }
 
@@ -116,7 +115,7 @@ body {
 .nome {
     width: 100%;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 110px;
     padding: 10px;
 }
 
@@ -163,6 +162,6 @@ body {
     }
 
     .nome {
-        margin-top: 12vh;
+        margin-top: 18vh;
     }
 }
